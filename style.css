@@ -1,0 +1,55 @@
+body{
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/519c2270779257.5bae709dac7d8.gif");
+    color:white;
+    text-align: center;
+}
+
+.alienShips{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    color: lightgreen;
+}
+.alien1{
+    /* border: solid lawngreen; */
+    border-radius: 30%;
+    width: 120px;
+    height: 18vh;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fed23208-554c-4c08-910c-44202dcc1945/dcubpua-fdeffbb0-d96c-4e85-b407-96a43f4b3ef3.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZlZDIzMjA4LTU1NGMtNGMwOC05MTBjLTQ0MjAyZGNjMTk0NVwvZGN1YnB1YS1mZGVmZmJiMC1kOTZjLTRlODUtYjQwNy05NmE0M2Y0YjNlZjMuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ZnyhEkf6usnlA5bZs7vvxF7UYpgfsEOpTsWuoDVLakc");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* transform: rotate(20deg); */
+}
+/* .alien1:hover{
+    animation: shake 0.100s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+ 
+    transform: translate(-1px, -2px) rotate(-1deg);
+} */
+
+.btnContainer{
+    border: solid red;
+    width: 100px;
+    height: 100px;
+    background-image: url("https://media0.giphy.com/media/PqjTdvXImZQfcmTYEO/giphy.gif");
+    background-size: contain;
+    margin-top: 25%;
+    margin-left: 45%;
+    
+}
+.btnAttack{
+width: 100px;
+margin-top: 80px;
+background-color: black;
+background-size: 100p;
+border: darkgray;
+border-radius: 10px;
+color: limegreen;
+font-weight: bold;
+cursor: pointer;
+
+}
